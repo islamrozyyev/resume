@@ -6,92 +6,117 @@
     <meta name="description" content="İçerisinde cv bulunmakta">
     <meta name="keywords" content="İslam Rozyyev CV Resume "  >
     <title>Resume</title>
+    <link rel="stylesheet" href="resume.css">
 </head>
 <body>
+    <div class="container">
 
-    <div>
-        <img src="İslam resim.jpg" alt="İslam'resmi" width="200">
-
-    </div>
-
-    <div>
-        <h2>İslam Rozyyev</h2>
-        <p>
-            Ben İslam Rozyyev İzmir Katip çelebi üniversitesinde finansal ekonomi bölümünün öğrencisiyim.
-        </p>
-        <p>
-            Ben gezmeyi, spor yapmayı, ve boş zamanlarımda kitap okumayı severim 
-        </p>
-
-    </div>
-
-    <div>
-        <h4> Sosyal medya listesi: </h4>
-        
-        <a href="#">İnstagram</a>
-        <a href="#">Telegram</a>
-        <a href="#">Youtube</a>
-
-
-    </div>
-
-    <div>
-        <h4>Hobbilerim:</h4>
-
-        <ol>
-            <li>Fitness</li>
-            <li>Film izlemek</li>
-            <li>Kitap okumak</li>
-            <li>Yazılım öğrenmek</li>
-        </ol>
-    </div>
-
-    <table> 
-        <thead>
-            <tr>
-                <th>İsim</th>
-                <th>Yaş</th>
-                <th>Meslek</th>
-            </tr>
-        </thead>
-        
-        <tbody>
-            <tr>
-                <td>İslam Rozyyev</td>
-                <td>26</td>
-                <td>Öğrenci</td>
-            </tr>
-            <tr>
-                <td> Andrey A.</td>
-                <td>28</td>
-                <td>Öğrenci</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <form >
-        <H4>Benimle İletişime geçin:</H4>
-        <div>
-            <label for="text">İsminiz:</label>
-            <input type="text" id="text" placeholder="isminizi giriniz">
-        </div>
+       <div class="information1">
 
         <div>
-            <label for="email">email:</label>
-            <input type="email" id="email" placeholder="emailinizi giriniz">
+            <img src="İslam resim.jpg" alt="İslam'resmi" width="200" class="img">
+
         </div>
 
-        <div>
-        <label for="message">Mesajınız:</label>
-        <br>
-        <textarea  id="message" cols="30" rows="10" placeholder="mesajınızı yazınız"></textarea>
+        <div class="card information">
+            <h2>İslam Rozyyev</h2>
+            <p>
+                Ben İslam Rozyyev İzmir Katip çelebi üniversitesinde finansal ekonomi bölümünün öğrencisiyim.
+            </p>
+            <p>
+                Ben gezmeyi, spor yapmayı, ve boş zamanlarımda kitap okumayı severim 
+            </p>
+            <div class="contact">
+            <h4> Sosyal medya listesi: </h4>
+            
+            <a href="#">İnstagram</a>
+            <a href="#">Telegram</a>
+            <a href="#">Youtube</a>
+            </div>
+
+
+        </div>
+    </div>
+
+        <div class="card hobbi">
+            <h4>Hobbilerim:</h4>
+
+            <ol class="list">
+                <li>Fitness</li>
+                <li>Film izlemek</li>
+                <li>Kitap okumak</li>
+                <li>Yazılım öğrenmek</li>
+            </ol>
         </div>
 
-        <div>
-        <button type="submit">Gönder</button>
+        <div class="card table">
+            <h3>Tecrübeleri:</h3>
+        <table class="table-in"> 
+            
+            
+            <tbody>
+                <tr class="table-header">
+                    <td>Mesleği</td>
+                    <td>Konumu</td>
+                    <td>Yıl</td>
+                </tr>
+                <tr>
+                    <td>Trakya Üniversitesi</td>
+                    <td>Öğrenci</td>
+                    <td>2015-2016</td>
+                </tr>
+                <tr>
+                    <td>Uşak üniversitesi</td>
+                    <td>Öğrenci</td>
+                    <td>2016-2020</td>
+                </tr>
+                <tr>
+                    <td>Camelot hotel</td>
+                    <td>Resepsionist</td>
+                    <td>2020-2021
+                    </td>
+                </tr>
+                <tr>
+                    <td>AES club hotel</td>
+                    <td>Resepsionist</td>
+                    <td>2021-2022
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rai premium</td>
+                    <td>Spor animatör</td>
+                    <td>2022-2024</td>
+                </tr>
+            </tbody>
+        </table>
         </div>
-        <br>
-        <br>
-    </form>
+
+        <div class="card form">
+        <form>
+            <H4>Benimle İletişime geçin:</H4>
+            <div>
+                <label for="text">İsminiz:</label>
+                <input type="text" id="text" placeholder="isminizi giriniz">
+            </div>
+
+            <div>
+                <label for="email">email:</label>
+                <input type="email" id="email" placeholder="emailinizi giriniz">
+            </div>
+
+            <div>
+            <label for="message">Mesajınız:</label>
+            <br>
+            <textarea  id="message" cols="30" rows="10" placeholder="mesajınızı yazınız"></textarea>
+            </div>
+
+            <div>
+            <button type="submit" class="btn">Gönder</button>
+            </div>
+            </div>
+            <br>
+            <br>
+        </form>
+    </div>
 </body>
 </html>
